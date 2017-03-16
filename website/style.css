@@ -1,0 +1,217 @@
+body{
+    background-image: url("images/background.jpg");
+    
+}
+.wrapper{
+    width: 800px;
+}
+.login-form {
+    display: inline-flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-align: right;
+}
+.login-form button {
+    display: inline-block;
+    margin: 10px 12px 0 0;
+    vertical-align: middle;
+    border: 1px solid #c1c1c1;
+    font-size: 13px;
+    color: #333;
+    height: 26px;
+    background-color: #e8e8e8;
+}
+.logo{
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    width: 100px;
+    height:30px;
+}
+
+.login-form input {
+    display: inline-block;
+    margin: 10px 12px 0 0;
+    background: #fdfdfd;
+    vertical-align: middle;
+    border: 1px solid #c1c1c1;
+    font-size: 13px;
+    color: #333;
+    width: 200px;
+    height: 26px;
+    user-select: text;
+    cursor: auto;
+}
+.login-form .forgot-password{
+    font-size: 12px;
+    line-height: 14px;
+    color: #006fa6;
+    font-weight: normal;
+    text-decoration: none;
+    color: #ccc;
+    left: 212px;
+    position: absolute;
+    top: 45px;
+}
+body.form{
+    border-style:groove;
+}
+.header {
+    height: 70px;
+    background-color: #333;
+}
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.reg-form {
+    width: 400px;
+    height: 447px;
+    padding: 15px 30px 30px;
+    background-color: #eee;
+    margin:3% 50% ;
+    border: 0;
+    font-size: 100%;
+    vertical-align: center;
+
+}
+h1, h2, p {
+    text-align: center;
+   
+}
+h3{
+    font-size: 14px;
+}
+.reg-form .title{
+    font-weight: lighter;
+    color: #333;
+    text-align: center;
+    margin: 0 0 13px;
+}
+.reg-form .subtitle{
+    font-weight: lighter;
+    color: #333;
+    text-align: center;
+    margin: 0 0 18px;
+}
+.reg-form label {
+    font-size: 14px;
+    line-height: 14px;
+    color: #66696a;
+    margin-bottom: 2px;
+    display: :block;
+    text-align: left;
+}
+.reg-form input {
+    background: #fdfdfd;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #434649;
+    padding: 0 0 0 6px;
+    border: 1px solid #BFBFBF;
+    height: 32px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.reg-form .agreement {
+    font-size: 14px;
+    line-height: 14px;
+    color: #66696a;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+}
+.reg-form .submit-button
+{
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 0;
+    overflow: visible;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0 15px;
+    height: 34px;
+    line-height: 32px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f6e312;
+    border-color: #e9ac1a;
+}
+.foot{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 25px 0 0;
+}
+.search-name{
+    display: flex;
+    align-items: center;
+}
+.search-name .title {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #000;
+    color: #ccc;
+    padding-right: 5px;
+}
+.search-name input{
+    margin-right: 10px;
+    background: #fdfdfd;
+    vertical-align: middle;
+    border-radius: 2px;
+    padding: 5px 6px 4px;
+    border: 1px solid #c1c1c1;
+    font-size: 13px;
+    color: #333;
+    width: 200px;
+    margin-right: 12px;
+}
+.search-name button{
+    width:70px;
+    height:25px;
+    font-size: 13px;
+    color:#333;
+    font-weight: bold;
+}
+.directory {
+    min-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #66696a;
+    padding-bottom: 25px;
+}
+.directory .title .li{
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    font-weight: normal;
+    margin-right: 5px;
+    color: #ccc;
+    margin-right: 3px;
+
+}
+.directory ol {
+    display: flex;
+    align-items: center;
+}
+ol, ul {
+    list-style: none;
+}
+.links li {
+    padding-right: 5px;
+    margin: 2px 5px 0 0;
+    border-right: 1px solid #66696a;
+}
